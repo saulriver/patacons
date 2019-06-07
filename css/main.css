@@ -1038,8 +1038,8 @@
  }
  
  .w3-display-bottomleft {
-     position: absolute;
-     left: 0;
+     position: fixed;
+     left: 63px;
      bottom: 0
  }
  
