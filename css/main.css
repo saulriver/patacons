@@ -1383,7 +1383,8 @@ a {
 }
 
 .w3-xlarge {
-    font-size: 24px!important
+    font-size: 24px!important;
+    padding-top: 8px;
 }
 
 .w3-xxlarge {
@@ -2071,25 +2072,5 @@ a {
     width: 282px;
 }
 
-.bgimg {
-    background-position-x: 0%;
-    background-position-y: 0%;
-    background-size: auto;
-    background-position: center;
-    background-size: cover;
-    min-height: 100%;
-}
-
 
 /*===========================================================================================================================================*/
-
-@media (max-width:360px) {
-    .w3-display-middle .w3-jumbo,
-    img {
-        padding: 0;
-        background: url(imagen/logo3.png);
-        background-repeat: no-repeat;
-        background-origin: content-box;
-        width: 151%;
-    }
-}
