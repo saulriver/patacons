@@ -34,6 +34,13 @@ html {
     height: 100%;
 }
 
+.bgimg {
+    background-color: #d87547;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
 
 /*========================botones sociales==========================================================================================*/
 
@@ -267,7 +274,7 @@ button:-moz-focusring,
 fieldset {
     border: 1px solid #c0c0c0;
     margin: 0 2px;
-    padding: .35em .625em .75em
+    padding: .35em .625em .75em;
 }
 
 legend {
@@ -1045,6 +1052,8 @@ a {
 }
 
 .w3-display-bottomleft {
+    position: absolute;
+    left: 0;
     position: fixed;
     left: 63px;
     bottom: 0
@@ -1298,7 +1307,6 @@ a {
 
 .w3-animate-zoom {
     animation: animatezoom 0.6s;
-    margin-left: -32px;
 }
 
 @keyframes animatezoom {
